@@ -13,6 +13,7 @@
 		8DA9748324EAA4AD00FADF3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA9748124EAA4AD00FADF3E /* Main.storyboard */; };
 		8DA9748524EAA4AF00FADF3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA9748424EAA4AF00FADF3E /* Assets.xcassets */; };
 		8DA9748824EAA4AF00FADF3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA9748624EAA4AF00FADF3E /* LaunchScreen.storyboard */; };
+		8DA9749224EAA8B900FADF3E /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9749124EAA8B900FADF3E /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8DA9748424EAA4AF00FADF3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DA9748724EAA4AF00FADF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA9748924EAA4AF00FADF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA9749124EAA8B900FADF3E /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				8DA9747D24EAA4AD00FADF3E /* SceneDelegate.swift */,
 				8DA9747F24EAA4AD00FADF3E /* ViewController.swift */,
 				8DA9748124EAA4AD00FADF3E /* Main.storyboard */,
+				8DA9749124EAA8B900FADF3E /* NextViewController.swift */,
 				8DA9748424EAA4AF00FADF3E /* Assets.xcassets */,
 				8DA9748624EAA4AF00FADF3E /* LaunchScreen.storyboard */,
 				8DA9748924EAA4AF00FADF3E /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA9748024EAA4AD00FADF3E /* ViewController.swift in Sources */,
+				8DA9749224EAA8B900FADF3E /* NextViewController.swift in Sources */,
 				8DA9747C24EAA4AD00FADF3E /* AppDelegate.swift in Sources */,
 				8DA9747E24EAA4AD00FADF3E /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nifty.cbm01799.Swift5MapAndProtocol01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nifty.cbm01799.Swift5MapAndProtocol01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
